@@ -1,0 +1,57 @@
+ToDo:
+=============================================================================================
+==================                       ====================================================
+==================     Priorität 1:      ====================================================
+==================                       ====================================================
+=============================================================================================
+
+ - einstellung -> pfad zu excel installation einstellen
+ -prüfen auf excel installation bzw wo installiert
+  
+ -eingabe von werten in tabellenform mit labels und textfeldern
+ 
+ getränke in gleiche kassaprog speichern und automatisch laden -> dynamik getränke
+ eingabe und änderung der getränke -> preis name mittels dialog
+ 
+ eingabe der verbrauche in tabellenform -> eingabe nicht so umständlich
+ 
+  
+=============================================================================================
+==================                       ====================================================
+==================     Priorität 2:      ====================================================
+==================                       ====================================================
+=============================================================================================
+-bei klient bearbeiten fenster bei übernehmen button  opened Schuldner in gesamte liste zurückkopieren.
+ damit wird erst bei übernemen alles gespeichert!!!
+
+
+-in gespeicherter Datei infos hinterlegen 
+   wenn nicht sogar sämtliche protokollsachen (eigenen Punkt in datei erstellen)
+
+-passwortgeschützte datei -> passwort mit hashcode in datei speichern
+-passwort abfrage (eingebenes passwort mit hashcode vergleichen) -> sichere methode
+
+-protokolldateien für jeden schuldner einzeln übersicht von ein/auszahlungen
+-gesamtprotokolldatei mit jeder bewegung
+-protokollierung der einzelnen beträge zu namen zugeordent -> logfile
+-anzeige von protokollen nameensbezogen
+	
+statistiken:
+gesamtbetrag seit anlegen der datei
+gesamtbetrag pro schuldner seit anlegen
+
+-eingeben der getränke anstatt mit gesamtsumme
+-preisliste und getränkeliste hinterlegt.
+-änderungen über einstellungen
+
+
+=============================================================================================
+==================                       ====================================================
+==================    Optimierungen:     ====================================================
+==================                       ====================================================
+=============================================================================================
+-Für alle betrag abfragen fenster selbes fenster verwenden
+-eingabe fenster verallgemeineern und vererben statt jedes fenster neu zu generieren
+
+-nur ein Listener pro fenster -> abfrage welcher button gedrückt wurde im Listener
+

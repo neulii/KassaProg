@@ -1,0 +1,6 @@
+strg+shift L	Tastenübersicht
+strg+shift u	variablenverwendung anzeigen
+
+strg+shift g 	referenz öffnen
+strg+shift t	type öffnen
+

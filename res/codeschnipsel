@@ -1,0 +1,34 @@
+Codeschnipsel Temporär
+
+
+class DialogOKButtonActionListener implements ActionListener{
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			double tempBetrag;
+			double tempBetragString;
+		
+			//JOptionPane.showMessageDialog(null, "Betrag wirklich buchen?","Bestätigung",JOptionPane.WARNING_MESSAGE);
+			try{
+				String tempName = bezahlenFenster.auswahlName.getSelectedItem().toString();
+				
+				tempBetragString = Double.parseDouble(bezahlenFenster.textBetragBezahlen.getText().replace(',', '.'));
+				
+				if(bezahlenFenster.textBetragBezahlen.getText().equals(""))
+					tempBetrag=0;
+				else
+					//tempBetrag = Double.valueOf(bezahlen.textBetragBezahlen.getText());
+					tempBetrag = Double.valueOf(tempBetragString);
+							
+				liste.betragBezahlen(tempName, tempBetrag);
+				bezahlenFenster.setVisible(false);
+				
+				writeListToTable();
+			}
+			catch(NumberFormatException error){
+				JOptionPane.showMessageDialog(bezahlenFenster, "Eingaben überprüfen!!","Fehler bei eingabe!",JOptionPane.WARNING_MESSAGE);
+				
+			}
+			
+			
+		}
+	}
