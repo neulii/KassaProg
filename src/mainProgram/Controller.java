@@ -77,7 +77,6 @@ public class Controller {
 	private String propLoadFileOnStart = "false";
 	private String propOpenExcelFileAfterSave = "false";
 	private String propExportExcelFileAfterSave = "false";
-	private String propExcelPath = "";
 	
 	//Fenster
 	private MainWindow mainWindow;
